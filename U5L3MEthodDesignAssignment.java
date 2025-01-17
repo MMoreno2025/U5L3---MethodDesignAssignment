@@ -36,3 +36,19 @@ class Student{
 }
 
 //Make Courses Class - setting and getting test scores and averages//
+class Courses{
+    private int testScore;
+    
+    //constructor class//
+    public Courses(){
+        testScore = 0;
+    }
+
+    //get and set test scores//
+    public void setTestScore(int score){
+        testScore = score;
+    }
+    public int getTestScore(){
+        return testScore;
+    }
+}
